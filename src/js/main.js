@@ -174,7 +174,9 @@ consulta6.addEventListener("click", function() {
 
 let consulta7 = document.querySelector(".consulta7")
 consulta7.addEventListener("click", function() {
-	card.innerHTML = ""
+	card.innerHTML = /*html*/`
+	<consulta-siete></consulta-siete>
+	`
 })
 
 let consulta8 = document.querySelector(".consulta8")
