@@ -7,5 +7,3 @@ export const getMovies = async(titulo) =>{
     })
     return result
 }
-
-console.log(await getMovies("Rambo"))

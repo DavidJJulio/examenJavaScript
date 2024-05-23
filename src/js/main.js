@@ -1,3 +1,12 @@
+
+
+
+
+
+
+
+
+
 // SIDEBAR DROPDOWN
 const allDropdown = document.querySelectorAll('#sidebar .side-dropdown');
 const sidebar = document.getElementById('sidebar');
@@ -128,40 +137,50 @@ allProgress.forEach(item=> {
 let consulta1 = document.querySelector(".consulta1")
 let card = document.querySelector(".content-data")
 consulta1.addEventListener("click", function() {
-	card.innerHTML = ""
+	card.innerHTML = /*html*/`
+	<my-titl></my-titl>
+	`
 })
 let consulta2 = document.querySelector(".consulta2")
-consulta1.addEventListener("click", function() {
-	card.innerHTML = ""
+consulta2.addEventListener("click", function() {
+	card.innerHTML = /*html*/`
+	<consulta-dos></consulta-dos>
+	`
 })
 
 let consulta3 = document.querySelector(".consulta3")
-consulta1.addEventListener("click", function() {
-	card.innerHTML = ""
+consulta3.addEventListener("click", function() {
+	card.innerHTML = "Consulta sin funcionar :c"
 })
 
 let consulta4 = document.querySelector(".consulta4")
-consulta1.addEventListener("click", function() {
+consulta4.addEventListener("click", function() {
 	card.innerHTML = ""
 })
 
 let consulta5 = document.querySelector(".consulta5")
-consulta1.addEventListener("click", function() {
-	card.innerHTML = ""
+consulta5.addEventListener("click", function() {
+	card.innerHTML = /*html*/`
+	<consulta-cinco></consulta-cinco>
+	`
 })
 
 let consulta6 = document.querySelector(".consulta6")
-consulta1.addEventListener("click", function() {
-	card.innerHTML = ""
+consulta6.addEventListener("click", function() {
+	card.innerHTML = /*html*/`
+	<consulta-seis></consulta-seis>
+	`
 })
 
 let consulta7 = document.querySelector(".consulta7")
-consulta1.addEventListener("click", function() {
+consulta7.addEventListener("click", function() {
 	card.innerHTML = ""
 })
 
 let consulta8 = document.querySelector(".consulta8")
-consulta1.addEventListener("click", function() {
-	card.innerHTML = ""
+consulta8.addEventListener("click", function() {
+	card.innerHTML = /*html*/`
+	
+	`;
 })
 
