@@ -150,12 +150,12 @@ consulta2.addEventListener("click", function() {
 
 let consulta3 = document.querySelector(".consulta3")
 consulta3.addEventListener("click", function() {
-	card.innerHTML = "Consulta sin funcionar :c"
+	card.innerHTML = "Consulta no disponible :c"
 })
 
 let consulta4 = document.querySelector(".consulta4")
 consulta4.addEventListener("click", function() {
-	card.innerHTML = ""
+	card.innerHTML = "Consulta no disponible :c"
 })
 
 let consulta5 = document.querySelector(".consulta5")
@@ -182,7 +182,7 @@ consulta7.addEventListener("click", function() {
 let consulta8 = document.querySelector(".consulta8")
 consulta8.addEventListener("click", function() {
 	card.innerHTML = /*html*/`
-	
+		Consulta no disponible :c
 	`;
 })
 

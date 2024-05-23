@@ -1,5 +1,4 @@
-import { getMovies } from "../module/consulta";
-
+import { getID, getMovies, getTypeById, pepe } from "../module/consulta";
 export class myTitle extends HTMLElement{
     constructor(){
         super()
@@ -9,7 +8,7 @@ export class myTitle extends HTMLElement{
         this.PrimeraConsulta()
     }
     async PrimeraConsulta(){
-        this.data = await getMovies("Rambo")
+        this.data = await getMovies(prompt("Ingresa el nombre de una pelicula"))
         this.data.forEach(val =>{
             this.innerHTML += /*html*/`
             <style>
