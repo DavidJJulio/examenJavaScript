@@ -123,3 +123,45 @@ const allProgress = document.querySelectorAll('main .card .progress');
 allProgress.forEach(item=> {
 	item.style.setProperty('--value', item.dataset.value)
 })
+
+
+let consulta1 = document.querySelector(".consulta1")
+let card = document.querySelector(".content-data")
+consulta1.addEventListener("click", function() {
+	card.innerHTML = ""
+})
+let consulta2 = document.querySelector(".consulta2")
+consulta1.addEventListener("click", function() {
+	card.innerHTML = ""
+})
+
+let consulta3 = document.querySelector(".consulta3")
+consulta1.addEventListener("click", function() {
+	card.innerHTML = ""
+})
+
+let consulta4 = document.querySelector(".consulta4")
+consulta1.addEventListener("click", function() {
+	card.innerHTML = ""
+})
+
+let consulta5 = document.querySelector(".consulta5")
+consulta1.addEventListener("click", function() {
+	card.innerHTML = ""
+})
+
+let consulta6 = document.querySelector(".consulta6")
+consulta1.addEventListener("click", function() {
+	card.innerHTML = ""
+})
+
+let consulta7 = document.querySelector(".consulta7")
+consulta1.addEventListener("click", function() {
+	card.innerHTML = ""
+})
+
+let consulta8 = document.querySelector(".consulta8")
+consulta1.addEventListener("click", function() {
+	card.innerHTML = ""
+})
+
